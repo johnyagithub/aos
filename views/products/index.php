@@ -52,7 +52,7 @@
 										<div class="ProductType">
 											<div class="row m-0 text-center">
 												<a href="../products/" class="col-6 col-sm-4 col-md-3 col-lg-6 p-1">
-													<div class="btn btn-outline-secondary rounded w-100 p-3 text-dark">
+													<div class="btn btn-outline-secondary rounded w-100 p-3 text-dark active">
 														<img src="../../public/images/brand/byd.png" class="h-50px d-block mx-auto">
 														BYD
 													</div>
@@ -139,6 +139,33 @@
 										</div>
 
 									</div>
+
+									<!-- <div class="form-row mt-2 p-1">
+										<div class="col-12 mb-2">
+											<select class="custom-select mr-sm-2">
+												<option selected>รุ่น</option>
+												<option value="1">Dolphin</option>
+												<option value="2">ATTO3</option>
+											</select>
+										</div>
+										<div class="col-6 mb-2">
+											<select class="custom-select mr-sm-2">
+												<option selected>ปี</option>
+												<option value="1">2023</option>
+												<option value="2">2025</option>
+											</select>
+										</div>
+										<div class="col-6 mb-2">
+											<select class="custom-select mr-sm-2">
+												<option selected>สี</option>
+												<option value="1">แดง</option>
+												<option value="2">ดำ</option>
+											</select>
+										</div>
+										<div class="col-12 mb-2">
+											<button class="btn btn-primary w-100" type="submit">คันหา</button>
+										</div>
+									</div> -->
 								</form>
 							</div>
 
@@ -148,6 +175,35 @@
 						<div class="pb-1 mt-2 d-block d-xl-flex justify-content-between align-items-center">
 							<h5 class="py-3 mb-0">รายการสินค้าทั้งหมด จำนวน <span class="text-primary h3">40</span> รายการ</h5>
 						</div>
+						<form action="#" id="search_brand">
+							<div class="form-row">
+								<div class="col-12 col-sm mb-2">
+									<select class="custom-select mr-sm-2">
+										<option selected>รุ่น</option>
+										<option value="1">Dolphin</option>
+										<option value="2">ATTO3</option>
+									</select>
+								</div>
+								<div class="col-6 col-sm mb-2">
+									<select class="custom-select mr-sm-2">
+										<option selected>ปี</option>
+										<option value="1">2023</option>
+										<option value="2">2025</option>
+									</select>
+								</div>
+								<div class="col-6 col-sm mb-2">
+									<select class="custom-select mr-sm-2">
+										<option selected>สี</option>
+										<option value="1">แดง</option>
+										<option value="2">ดำ</option>
+									</select>
+								</div>
+								<div class="col-12 col-sm-auto mb-2">
+									<button class="btn btn-primary w-100" type="submit">คันหา</button>
+								</div>
+							</div>
+						</form>
+
 						<div class="row">
 
 							<div class="card col-sm-4 col-6">

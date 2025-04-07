@@ -1375,11 +1375,6 @@ footer {
     padding: 1px 4px;
     z-index: 9;
    }
-   div#navbarCollapse .form-search {
-    padding-right: 37px;
-    right: 125px;
-    top: 80px;
-   }
    div#navbarCollapse .form-search:not(.open) {
     right: -300px !important;
    }
@@ -1399,9 +1394,6 @@ footer {
    div#navbarCollapse {
     outline: 0px;
    }
-   div#navbarCollapse .form-search.open {
-    top: 80px;
-   }
    section:first-child:not(.box-head):not(.box-banner) {
     padding-top: 40px !important;
    }
@@ -1410,6 +1402,13 @@ footer {
    }
    .box-products .card {
     padding: 3px;
+   }
+   body.down #navbarCollapse .box-btn-header {
+    max-height: 40px;
+   }
+   #navbarCollapse .box-btn-header {
+    transition: .5s;
+    max-height: 70px;
    }
   }
  }
